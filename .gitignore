@@ -172,3 +172,9 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+
+echo "myenv/" >> .gitignore
+git add .gitignore
+git commit -m "Ignored myenv folder"
+git push origin main
